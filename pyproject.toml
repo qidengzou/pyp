@@ -1,0 +1,13 @@
+[project]
+name = "pyp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]"
+]
+
+[project.scripts]
+app = "backend.server:app"
