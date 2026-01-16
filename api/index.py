@@ -4,7 +4,7 @@ app = FastAPI()
  
 @app.get("/")
 def read_root():
-    return {"Python": "on Vercel"}
+    return {"Python": "on Vercel", "status": "ok"}
 
 @app.get("/hello")
 def hello():
