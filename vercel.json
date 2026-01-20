@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/store/:path*",
+      "destination": "https://dev.pyp.api.tongchenghuoke.com/store/:path*",
+      "permanent": true
+    }
+  ]
+}
