@@ -1,0 +1,93 @@
+# 依赖目录
+node_modules/
+
+# 构建输出
+.next/
+out/
+
+# 开发环境配置文件
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 环境变量文件
+.env
+.env.*
+
+# 调试文件
+*.log
+.npm-debug.log*
+.yarn-debug.log*
+.yarn-error.log*
+
+# 运行时状态文件
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript编译输出
+*.tsbuildinfo
+
+# TypeScript缓存
+*.tsbuildinfo
+
+# 可选的npm缓存目录
+.npm
+
+# 可选的yarn缓存目录
+.yarn-integrity
+
+# 可选的yarn缓存
+.yarn/cache
+
+# 可选的yarn unplug目录
+.yarn/unplugged
+
+# 可选的yarn build-state.yml文件
+.yarn/build-state.yml
+
+# 可选的yarn plug'n'play文件
+.pnp.*
+.pnp/
+
+# 可选的IDE配置
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# 可选的misc
+.DS_Store
+*.pem
+
+# fsevents 只是为了macOS上的文件监听
+fsevents/
+
+# 可选的测试结果
+coverage/
+*.lcov
+
+# GitBook构建输出
+_book/
+
+# TurboRepo
+.turbo/
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# 部署相关的临时文件
+dist/
+build/
+tmp/
+temp/
+
+# 项目特定的不需要上传的文件
+customer-frontend.txt
+*.txt
